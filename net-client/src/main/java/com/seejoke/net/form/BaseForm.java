@@ -20,6 +20,7 @@ public class BaseForm extends JFrame {
             public void windowClosing(WindowEvent e) {
 
                 System.exit(0);
+                System.out.println("nihao");
                 super.windowClosing(e);
             }
         });
